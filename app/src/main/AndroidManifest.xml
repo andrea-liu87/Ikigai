@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ikigai">
         <activity
+            android:name=".OnBoardingActivity"
+            android:exported="true"
+            android:theme="@style/OnBoardingTheme" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
